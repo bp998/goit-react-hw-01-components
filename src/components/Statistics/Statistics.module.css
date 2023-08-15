@@ -1,6 +1,8 @@
 .statsCard {
   display: flex;
   justify-content: center;
+  padding: 50px;
+  background-color: rgb(193, 224, 251);
 }
 .stats {
   display: flex;

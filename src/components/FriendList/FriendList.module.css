@@ -1,0 +1,47 @@
+.friendsListCard {
+  background-color: rgb(170, 210, 187);
+  padding-block: 50px;
+}
+
+.friendList {
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+
+  padding: 0;
+  background-color: white;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 20px;
+  border: 1px solid rgb(224, 224, 224);
+  gap: 20px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.itemStatus {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
