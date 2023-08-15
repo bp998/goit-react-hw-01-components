@@ -1,0 +1,27 @@
+.statsCard {
+  display: flex;
+  justify-content: center;
+}
+.stats {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.name {
+  display: none;
+}
+
+.el {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(240, 231, 180);
+  border-radius: 5px;
+  font-size: 20px;
+}
