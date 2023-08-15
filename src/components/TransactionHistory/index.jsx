@@ -2,7 +2,6 @@ import css from './TransactionHistory.module.css';
 import PropTypes from 'prop-types';
 
 export const TransactionHistory = ({ items }) => {
-  //   console.log(items);
   return (
     <div className={css.transactionCard}>
       <table className={css.transactionHistory}>
@@ -28,12 +27,6 @@ export const TransactionHistory = ({ items }) => {
   );
 };
 
-// FriendList.propTypes = {
-//   friends: PropTypes.array,
-// };
-
-// FriendListItem.propTypes = {
-//   avatar: PropTypes.string,
-//   name: PropTypes.string,
-//   isOnline: PropTypes.bool,
-// };
+TransactionHistory.propTypes = {
+  items: PropTypes.array,
+};
